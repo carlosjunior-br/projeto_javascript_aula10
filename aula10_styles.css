@@ -1,0 +1,25 @@
+#main-container {
+    border: 1px solid #ccc;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-tarefa {
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.acoes-tarefa {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
